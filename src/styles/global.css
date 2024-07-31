@@ -35,6 +35,7 @@ hr{
 
 a:link {
     text-decoration: none;
+    color: rgb(49, 49, 49);
   }
   
   a:visited {
@@ -44,10 +45,12 @@ a:link {
   
   a:hover {
     text-decoration: none;
+    color: rgb(18, 85, 38);
   }
   
   a:active {
     text-decoration: none;
+    color: rgb(49, 49, 49);
   }
 
   .L1{
