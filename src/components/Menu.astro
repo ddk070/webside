@@ -1,0 +1,49 @@
+---
+
+---
+
+<div class="bg">
+    <ul>
+        <li class="menu">
+            <a href="/"><img class="g3" src="/home.svg" alt="home"></a>
+            <a href="/#New1"><img class="g3" src="/Activity.svg" alt="活動"></a>
+            <a href="/#New2"><img class="g3" src="/link.svg" alt="連結"></a>
+            <a href='/about/'><img class="g3" src="/user.svg" alt="網站"></a>
+        </li>
+    </ul>
+</div>
+
+<style>
+    .bg{
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        translate: -50% -30%;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(38, 133, 101, 0.351);
+        border-radius: 35px;
+        height: 40px;
+        backdrop-filter:blur(4px);
+        padding: 0 0.5rem;
+    }
+    
+    a{
+        padding: 0 1rem;
+    }
+
+    a:hover{
+        background: #958dff43;
+        backdrop-filter:blur(1px);
+        border-radius: 10px;
+    }
+
+    .g3{
+        display: inline-block;
+        /* backdrop-filter:blur(0px); */
+    }
+
+  </style>

@@ -1,0 +1,24 @@
+---
+import Layout from "@layouts/Layout.astro";
+import {Content as Webdaily} from '@posts/webdaily.md';
+---
+
+<Layout >
+	<div class="L2">
+		<h2>網站更新日記</h2>
+
+		<div id="webdaily">
+            <Webdaily/>
+		</div>
+	</div>
+	
+	
+</Layout>
+
+<style>
+    #webdaily{
+        margin: 1rem 0;
+		text-align: left;
+    }
+</style>
+
