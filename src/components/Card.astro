@@ -2,14 +2,12 @@
 interface Props{
 	title?:string;
     content?:string;
-    time?:string;
 }
 
-const { title="告訴你一個秘密" , content="內容介紹",time="上架時間" } = Astro.props as Props;
+const { title="告訴你一個秘密" , content="內容介紹" } = Astro.props as Props;
 ---
 
 <div>
     <h1>{title}</h1>
     <p>{content}</p>
-    <p>{time}</p>
 </div>
