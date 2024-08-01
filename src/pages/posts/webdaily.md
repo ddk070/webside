@@ -10,7 +10,7 @@
 
 #### 懶人包今日更新
 * 新增astro-icon
-* 更改<div>、class名稱
+* 更改div、class名稱
 * 新增card.astro
 
 <hr>
