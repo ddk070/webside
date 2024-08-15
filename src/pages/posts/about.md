@@ -3,9 +3,11 @@
 # title: 關於網站
 ---
 
-## 為何建立網站
+## 網站建立原因
 為了宣傳校內活動<br>
 集合學校（學生）常用連結
+
+<hr>
 
 ## 網站可以做什麼
 - 校內活動資訊
@@ -46,9 +48,10 @@
 fxuan070@gmail.com
 
 <style>
+
     p{
         text-align: left;
-        line-height: 1.5rem;
+        margin:5rem 0;
     }
     ul{
         padding: 0 1.5rem;
@@ -56,6 +59,7 @@ fxuan070@gmail.com
     li{
         margin:0 1rem;
         font-size:14px;
+        text-align:left;
     }
 
 </style>
