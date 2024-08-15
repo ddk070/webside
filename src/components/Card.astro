@@ -2,12 +2,16 @@
 interface Props{
 	title?:string;
     content?:string;
+    href?:string;
 }
 
-const { title="告訴你一個秘密" , content="內容介紹" } = Astro.props as Props;
+const { title="告訴你一個秘密" , content="內容介紹" ,href} = Astro.props as Props;
 ---
 
-<div>
-    <h1>{title}</h1>
-    <p>{content}</p>
-</div>
+<a href={href}>
+    <div>
+        <slot/ >
+        <h1>{title}</h1>
+        <p>{content}</p>
+    </div>
+</a>
