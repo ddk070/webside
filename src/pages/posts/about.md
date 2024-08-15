@@ -7,8 +7,6 @@
 為了宣傳校內活動<br>
 集合學校（學生）常用連結
 
-<hr>
-
 ## 網站可以做什麼
 - 校內活動資訊
 - 學校常用連結
@@ -48,10 +46,11 @@
 fxuan070@gmail.com
 
 <style>
-
+    h2{
+        margin:2rem 0 0;
+    }
     p{
         text-align: left;
-        margin:5rem 0;
     }
     ul{
         padding: 0 1.5rem;
