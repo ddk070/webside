@@ -48,6 +48,7 @@ fxuan070@gmail.com
 <style>
     p{
         text-align: left;
+        line-height: 1.5rem;
     }
     ul{
         padding: 0 1.5rem;
