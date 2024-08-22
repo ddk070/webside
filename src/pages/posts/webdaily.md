@@ -39,7 +39,7 @@ how i met your mother<br>
     }
     li{
         margin:0 1rem;
-        font-size:14px;
+        font-size:18px;
     }
 
 </style>
