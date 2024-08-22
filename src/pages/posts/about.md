@@ -57,7 +57,7 @@ fxuan070@gmail.com
     }
     li{
         margin:0 1rem;
-        font-size:14px;
+        font-size:1.25rem;
         text-align:left;
     }
 
