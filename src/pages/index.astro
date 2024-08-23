@@ -2,6 +2,8 @@
 import Layout from '@layouts/Layout.astro';
 import Button from '@components/Button.astro';
 import '../styles/global.css';
+import GridLayout from '@layouts/GridLayout.astro';
+import Card from '@components/Card.astro';
 ---
 <Layout title="告訴你一個秘密"  >
 
@@ -9,6 +11,13 @@ import '../styles/global.css';
 	<div class="box" id="New1">
 		<h1>最新資訊</h1>
 		<div class="box">
+			<GridLayout>
+				<Card imageSrc="/Hedgehog.png" title="網站資訊" date="2024-8-23" link="/"/>
+				<Card imageSrc="/Hedgehog.png" title="網站資訊" date="2024-8-23" link="/"/>
+				<Card imageSrc="/Hedgehog.png" title="網站資訊" date="2024-8-23" link="/"/>
+				<Card imageSrc="/Hedgehog.png" title="網站資訊" date="2024-8-23" link="/"/>
+				<Card imageSrc="/Hedgehog.png" title="網站資訊" date="2024-8-23" link="/"/>
+			</GridLayout>
 			<p>暫無資訊和活動</p>
 		</div>
 		
@@ -21,7 +30,7 @@ import '../styles/global.css';
 			<div>
 				<p class="C1">大葉連結區</p>
 
-				<div >
+				<GridLayout>
 
 					<Button href="https://www.dyu.edu.tw/" >大葉大學 </Button>
 					<Button href="https://bulletin.dyu.edu.tw/index.php?pool_ID=1&isHidden=1&goBack=1" >最新消息 </Button>
@@ -31,7 +40,7 @@ import '../styles/global.css';
 					<Button href="https://sis.dyu.edu.tw/RWD/index.html" >學生資訊系統</Button>
 					<Button href="http://cs.dyu.edu.tw/1000.php" >選課系統</Button>
 					<Button href="http://163.23.1.52/dorm_oapply/main.php" >住宿申請</Button>
-				</div>	
+				</GridLayout>
 			</div>
 		</div>
 

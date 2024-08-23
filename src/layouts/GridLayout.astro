@@ -1,0 +1,19 @@
+---
+// export interface GridLayoutProps {
+//   children: AstroComponent[];
+// }
+
+const { children } = Astro.props;
+---
+
+<div class="grid-layout">
+  {children}
+</div>
+
+<style>
+  .grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+  }
+</style>
