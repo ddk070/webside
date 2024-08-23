@@ -1,6 +1,7 @@
 ---
-title: 告訴你一個秘密
 layout: ../../layouts/Layout.astro
+title: 告訴你一個秘密
+
 ---
 
 # Hi there!

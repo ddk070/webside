@@ -1,13 +1,9 @@
 ---
-export interface GridLayoutProps {
-  children: [];
-}
 
-const { children } = Astro.props;
 ---
 
 <div class="grid-layout">
-  {children}
+    <slot />
 </div>
 
 <style>
