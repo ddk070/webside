@@ -1,0 +1,46 @@
+---
+
+---
+
+<div class="button-container">
+    <slot /> <!-- This will render the button elements passed into the layout -->
+</div>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #007BFF;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+        background-color: #0056b3;
+    }
+</style>
